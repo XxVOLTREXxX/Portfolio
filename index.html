@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayush Parchure | Tech Portfolio</title>
+    <link rel="icon" href=C:\Users\AYUSH\OneDrive\Desktop\portfolio\technology.png type="image/png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">Portfolio</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Hi, I'm <span class="highlight">Ayush Parchure  </span></h1>
+            <p class="tagline">Generative AI Specialist | ML & NLP Projects</p>
+            <div class="cta-buttons">
+                <a href="#projects" class="btn primary">View My Work</a>
+                <a href="#contact" class="btn secondary">Contact Me</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>
+                    Hello! I'm Ayush Parchure, an AI/ML Developer passionate about building intelligent, data-driven solutions.<br>
+                    I specialize in Generative AI, Natural Language Processing (NLP), and model deployment using Python.<br>
+                    With a strong foundation in tools like LangChain, scikit-learn, TensorFlow, and spaCy.
+                </p>
+                <div class="skills">
+                    <h3>My Skills</h3>
+                    <div class="skill-tags">
+                        <span>Python</span>
+                        <span>LangChain</span>
+                        <span>NLTK</span>
+                        <span>NLP</span>
+                        <span>scikit-learn</span>
+                        <span>TensorFlow</span>
+                        <span>spaCy</span>
+                        <span>SQL</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <h2>My Projects</h2>
+        <div class="project-slider">
+            <button class="slider-btn prev">&#8592;</button>
+            <div class="project-slider-track">
+                <div class="project-card">
+                    <img src="C:\Users\AYUSH\OneDrive\Desktop\portfolio\Daib_care.jpg" alt="Daib-Care">
+                    <h3>Daib-Care</h3>
+                    <p>🩺 Diab-Care is a lightweight ML-powered web app that predicts diabetes risk based on user input.
+                           Built with Python, scikit-learn, and Streamlit, 
+                           it offers an intuitive interface, achieves 83% accuracy,
+                            and uses Pickle for model deployment. ⚙️📊💻
+                    </p>
+                    <a href="https://github.com/XxVOLTREXxX/Daib-Care" class="btn" target="_blank" rel="noopener noreferrer">View Project</a>
+                </div>
+                <div class="project-card">
+                    <img src="C:\Users\AYUSH\OneDrive\Desktop\portfolio\F-95.png" alt="F-95 Posture Detection">
+                    <h3>F-95 Posture Detection</h3>
+                    <p>🧍‍♂️F-95 Posture Detection is a real-time posture monitoring system that uses computer vision
+                         and machine learning to detect and alert users about poor posture.
+                         Built with Python, OpenCV, and TensorFlow, it offers real-time feedback, achieves 95% accuracy,
+                         and uses YOLOv5 for object detection. 🎯📷💻
+                    </p>
+                    <a href="https://github.com/XxVOLTREXxX/F-95-Posture-Detection" class="btn" target="_blank" rel="noopener noreferrer">View Project</a>
+                </div>
+                <div class="project-card">
+                    <img src="C:\Users\AYUSH\OneDrive\Desktop\portfolio\AI_Chatbot.png" alt="AI Chatbot">
+                    <h3>AI Chatbot</h3>
+                    <p>💬 AI Chatbot is an intelligent conversational assistant built using Python, NLTK, spaCy, and 
+                        scikit-learn. It understands user queries through intent recognition and entity extraction,
+                         and simulates human-like conversations. Integrated with platforms like Telegram,
+                         it enables real-time, seamless user interaction. 🤖📱🧠
+                    </p>
+                    <a href="https://github.com/XxVOLTREXxX/AI-Chat_bot" class="btn" target="_blank" rel="noopener noreferrer">View Project</a>
+                </div>
+                <div class="project-card">
+                    <img src=C:\Users\AYUSH\OneDrive\Desktop\portfolio\question-generator-main-feature1.webp alt="New Project">
+                    <h3>Interview Question Generator</h3>
+                    <p>🧠 Interview Question Generator is a simple and smart Streamlit app that 
+                        instantly generates technical interview questions based on your selected 
+                        job role and skills. Just enter a role like "Data Scientist" and skills 
+                        like "Python, SQL" and get 5 custom questions powered by the FLAN-T5
+                         language model via Hugging Face 🤖🚀🧠.
+                    </p>
+                    <a href="https://github.com/XxVOLTREXxX/Interview-Question-Generator" class="btn" target="_blank" rel="noopener noreferrer">View Project</a>
+                </div>
+            </div>
+            <button class="slider-btn next">&#8594;</button>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Get In Touch</h2>
+        <div class="contact-content">
+            <form id="contact-form" action="https://formspree.io/f/mvgrzdvr" method="POST">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn primary">Send Message</button>
+            </form>
+            <div class="social-links">
+                <a href="https://github.com/XxVOLTREXxX" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/ayuparchure3374/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
+                <a href="tel:7999377129"><i class="fas fa-mobile-alt"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <div class="contact-info" style="text-align:center; margin-bottom: 2rem; color: var(--text-color);">
+        
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Ayush Parchure. All rights reserved.</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html> 
